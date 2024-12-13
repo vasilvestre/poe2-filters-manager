@@ -8,7 +8,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "tauri": "tauri",
-    "prettier": "prettier src -c",
+    "prettier": "prettier src",
     "prettier:fix": "prettier src -w",
     "eslint": "eslint src",
     "eslint:fix": "eslint src --fix"
