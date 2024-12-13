@@ -4,9 +4,9 @@
   "version": "0.1.0",
   "identifier": "com.vasilvestre.poe2-filters-manager",
   "build": {
-    "beforeDevCommand": "bun run dev",
+    "beforeDevCommand": "pnpm run dev",
     "devUrl": "http://localhost:1420",
-    "beforeBuildCommand": "bun run build",
+    "beforeBuildCommand": "pnpm run build",
     "frontendDist": "../dist"
   },
   "app": {
@@ -35,10 +35,13 @@
   },
   "plugins": {
     "updater": {
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEEwNzIzMTNENUZDOTgzMkYKUldRdmc4bGZQVEZ5b1BERTRhVGR1MkpWZ09Vam84ZjBDZVVxUTdJc09XcDlPdEdNeDdpc0tvTDgK",
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDY4MzcwMThBMTA1MjhDODMKUldTRGpGSVFpZ0UzYUJQZitTelE2Yk1ySGYwNFNPRFF3SFNPWXhwTDlnRDY4TnNFQSthcVA4VXkK",
       "endpoints": [
         "https://github.com/vasilvestre/poe2-filters-manager/releases/latest/download/latest.json"
-      ]
+      ],
+      "windows": {
+        "installMode": "passive"
+      }
     }
   }
 }
