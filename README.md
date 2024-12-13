@@ -1,5 +1,8 @@
 # POE2 filters manager
 
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg?style=for-the-badge)](https://opensource.org/licenses/BSD-3-Clause) 
+![GitHub all releases](https://img.shields.io/github/downloads/vasilvestre/poe2-filters-manager/total?style=for-the-badge)
+
 If you are lazy and want to install/update filters easily, this tool is for you.
 
 This is a super early and unstable version.
