@@ -1,7 +1,13 @@
-# Tauri + React + Typescript
+# POE2 filters manager
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+If you are lazy and want to install/update filters easily, this tool is for you.
 
-## Recommended IDE Setup
+This is a super early and unstable version.
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+Roadmap:
+- List multiple filters
+- Handle auto updates
+- Let you drag & drop .filter files
+
+Your antivirus may detect this as a virus, shame on windows that requires a 200$+ license per year to be verified.
+Antivirus analysis are made on [all releases](https://github.com/vasilvestre/poe2-filters-manager/actions/workflows/virus-total.yml).
